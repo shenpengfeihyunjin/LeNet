@@ -1,0 +1,10 @@
+# MNIST 原始数据
+datasets/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 临时文件
+*.tmp
+*.log.*

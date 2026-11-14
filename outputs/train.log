@@ -1,0 +1,41 @@
+========== LeNet 训练开始 ==========
+设备：cuda:1
+训练轮数：20
+Batch Size：128
+学习率：0.001
+Epoch [01/20] Train Loss: 0.3235 | Test Loss: 0.1068 | Test Accuracy: 96.71%
+  已保存最佳模型，准确率：96.71%
+Epoch [02/20] Train Loss: 0.0837 | Test Loss: 0.0636 | Test Accuracy: 97.90%
+  已保存最佳模型，准确率：97.90%
+Epoch [03/20] Train Loss: 0.0560 | Test Loss: 0.0426 | Test Accuracy: 98.65%
+  已保存最佳模型，准确率：98.65%
+Epoch [04/20] Train Loss: 0.0425 | Test Loss: 0.0440 | Test Accuracy: 98.61%
+Epoch [05/20] Train Loss: 0.0353 | Test Loss: 0.0429 | Test Accuracy: 98.73%
+  已保存最佳模型，准确率：98.73%
+Epoch [06/20] Train Loss: 0.0286 | Test Loss: 0.0383 | Test Accuracy: 98.82%
+  已保存最佳模型，准确率：98.82%
+Epoch [07/20] Train Loss: 0.0260 | Test Loss: 0.0374 | Test Accuracy: 98.86%
+  已保存最佳模型，准确率：98.86%
+Epoch [08/20] Train Loss: 0.0215 | Test Loss: 0.0464 | Test Accuracy: 98.57%
+Epoch [09/20] Train Loss: 0.0177 | Test Loss: 0.0416 | Test Accuracy: 98.90%
+  已保存最佳模型，准确率：98.90%
+Epoch [10/20] Train Loss: 0.0162 | Test Loss: 0.0357 | Test Accuracy: 99.02%
+  已保存最佳模型，准确率：99.02%
+Epoch [11/20] Train Loss: 0.0138 | Test Loss: 0.0383 | Test Accuracy: 98.84%
+Epoch [12/20] Train Loss: 0.0117 | Test Loss: 0.0399 | Test Accuracy: 98.90%
+Epoch [13/20] Train Loss: 0.0105 | Test Loss: 0.0413 | Test Accuracy: 98.84%
+Epoch [14/20] Train Loss: 0.0111 | Test Loss: 0.0368 | Test Accuracy: 99.01%
+Epoch [15/20] Train Loss: 0.0087 | Test Loss: 0.0354 | Test Accuracy: 98.94%
+Epoch [16/20] Train Loss: 0.0062 | Test Loss: 0.0383 | Test Accuracy: 99.03%
+  已保存最佳模型，准确率：99.03%
+Epoch [17/20] Train Loss: 0.0052 | Test Loss: 0.0475 | Test Accuracy: 98.72%
+Epoch [18/20] Train Loss: 0.0085 | Test Loss: 0.0475 | Test Accuracy: 98.63%
+Epoch [19/20] Train Loss: 0.0074 | Test Loss: 0.0505 | Test Accuracy: 98.51%
+Epoch [20/20] Train Loss: 0.0060 | Test Loss: 0.0440 | Test Accuracy: 98.93%
+
+========== 训练完成 ==========
+最佳测试准确率：99.03%
+最佳模型：outputs/checkpoints/best_lenet.pth
+训练日志：outputs/training_log.csv
+损失曲线：outputs/plots/lenet_loss_curve.png
+准确率曲线：outputs/plots/lenet_accuracy_curve.png
